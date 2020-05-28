@@ -42,7 +42,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
 
     @Override
     @Transactional(readOnly = true)
-    public Page<RestUser> getPage(final Pageable pageable) { 
+    public Page<RestUser> getPage(final Pageable pageable) {
         var condition = User.USER.DELETED_AT.isNull().and(User.USER.ROLE.eq(ROLE_USER));
         var preparedCondition = hasAdminAccessLevel() ? DSL.noCondition() : condition;
         return userRepository.search(preparedCondition, pageable).map(USER_MAPPER::toModel);
