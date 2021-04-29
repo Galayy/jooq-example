@@ -26,7 +26,7 @@
         <jooq.version>3.12.4</jooq.version>
         <jwt.version>0.2</jwt.version>
         <lombok.version>1.18.12</lombok.version>
-        <openapi.version>4.2.3</openapi.version>
+        <openapi.version>5.1.0</openapi.version>
         <mapstruct.version>1.3.1.Final</mapstruct.version>
         <maven-compiler.version>3.5.1</maven-compiler.version>
         <springfox.version>2.9.2</springfox.version>
