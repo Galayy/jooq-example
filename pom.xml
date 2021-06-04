@@ -20,7 +20,7 @@
         <db.username>postgres</db.username>
         <db.password>postgres</db.password>
         <hibernate-types.version>2.9.10</hibernate-types.version>
-        <http.version>4.5</http.version>
+        <http.version>4.5.13</http.version>
         <jackson.version>0.2.1</jackson.version>
         <java.version>11</java.version>
         <jooq.version>3.12.4</jooq.version>
